@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table for Users</title>
+</head>
+
+    <style>
+
+    
+            table{
+                border-spacing: 0px;
+                width: 100%;
+        }
+
+        th, td{
+            padding: 10px 40px;
+        }
+
+        body{
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+
+        #at{
+            margin-top: -12px;
+            font-size: 14px;
+            color: rgb(185, 184, 184);
+
+        }
+        #text{
+            display: block;
+        }
+
+        #user{
+            display: flex;
+        }
+
+        #button{
+            background-color: #0288d1;
+            color: white;
+            border-radius: 8px;
+            padding: 9px;
+            border: none;
+        }
+        #button:hover{
+            background-color: gainsboro;
+            color: rgb(59, 59, 59);
+
+        }
+        th{
+            text-align: left;
+        }
+
+        #active{
+            width: 10px;
+            height: 10px;
+            background-color: green;
+            border-radius: 30px;
+        }
+
+        tr {
+            background-color: white;
+            box-shadow: #f9fdf6 100px;
+        }
+
+        tr:hover{
+            background-color: rgb(239, 240, 248);
+        }
+
+        .background{
+            background-color: #f9fdf6;
+            padding: 20px;
+        }
+    </style>
+
+
+<body>
+<div class="background">
+    <h2> Users </h2>
+
+    <table>
+        <th>Users</th>
+        <th>Status</th>
+        <th>Location</th>
+        <th>Phone</th>
+        <th>Contact</th>
+        <th>Actions</th>
+
+        
+            <tr>
+
+                <td> <div id="user">
+                    <img src="/Snapchat-1588465856.jpg" alt="" 
+                        style="width: 40px; height: 40px; border-radius: 60px; padding: 15px;">
+                
+                       <div id="text">
+                        <p>Kiran Acharya</p>
+                        <p id="at">@kiranacharyaa</p> 
+                </td>
+
+                <td>
+                    <div id="active"></div>
+                    <p style="margin-top: -13px; margin-left: 20px;">Active</p>
+                </td>
+
+                <td>Bangalore</td>
+
+                <td> +91 3456790</td>
+
+                <td> <input type="button" value="Contact" id="button"></td>
+
+                <td> <img src="/dots.png" alt=""></td>
+
+            </tr>
+
+        
+        
+            <tr>
+
+                <td> <div id="user">
+                    <img src="/20150628_180249.jpg" alt="" 
+                        style="width: 40px; height: 40px; border-radius: 60px; padding: 15px;">
+                
+                       <div id="text">
+                        <p>Sandeep Hedge</p>
+                        <p id="at">@Sandeep</p> </td>
+
+                <td>
+                    <div id="active"></div>
+                    <p style="margin-top: -13px; margin-left: 20px;">Active</p>
+                </td>
+
+                <td>Bangalore</td>
+
+                <td> +91 345 6790</td>
+
+                <td> <input type="button" value="Contact" id="button"></td>
+
+                <td> <img src="/dots.png" alt=""></td>
+
+            </tr>
+
+        
+    </table>
+</div>        
+</body>
+</html>
